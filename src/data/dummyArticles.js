@@ -46,7 +46,7 @@ export const DUMMY_ARTICLES = [
       </ol>
       <p>Konsultasikan kebutuhan Anda dengan tim representatif kami untuk mendapatkan penawaran yang sesuai.</p>
     `,
-    imageUrl: 'https://images.unsplash.com/photo-1555529771-835f59bfc50c?auto=format&fit=crop&q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=800',
     status: 'PUBLISHED',
     author: 'Admin',
     date: '2026-04-05',
