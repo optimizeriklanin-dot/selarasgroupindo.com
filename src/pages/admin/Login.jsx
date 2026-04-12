@@ -102,10 +102,6 @@ export default function Login() {
                 {loading ? 'Memproses...' : 'Masuk'}
               </button>
             </form>
-
-            <div className="mt-6 p-3 bg-gray-50 rounded-xl text-xs text-gray-400 text-center">
-              🔐 Demo: <span className="text-gray-600 font-mono">admin@selaras.com</span> / <span className="text-gray-600 font-mono">selarasgroupindo1000$$</span>
-            </div>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Plus, Search, Edit2, Trash2, Globe, Eye, Check, X } from 'lucide-react';
 import { DUMMY_ARTICLES } from '../../data/dummyArticles';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+import ReactQuill from 'react-quill-new';
+import 'react-quill-new/dist/quill.snow.css';
 
 export default function AdminArticles() {
   const [articles, setArticles] = useState(() => {
