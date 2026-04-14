@@ -93,8 +93,8 @@ export default function Home() {
 
             <div className="hidden md:flex justify-center items-center">
               <div className="relative">
-                <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-3xl bg-gradient-to-br from-primary/30 to-secondary/30 backdrop-blur-xl flex items-center justify-center shadow-2xl">
-                  <img src="/products/goodie-1.jpg" alt="PT Selaras Serasa Sejalan Tas Promosi" className="w-full h-full object-cover shadow-2xl rounded-3xl" />
+                <div className="relative h-64 md:h-96 w-full max-w-lg mx-auto md:mx-0 bg-white rounded-3xl overflow-hidden shadow-2xl">
+                  <img src="/products/team-photo.jpeg" alt="Tim PT Selaras Serasa Sejalan" className="w-full h-full object-cover md:object-cover" />
                 </div>
                 <div className="absolute -bottom-6 -left-6 bg-white/95 backdrop-blur-lg border border-white/20 rounded-2xl py-3 px-5 shadow-2xl shadow-black/20">
                   <p className="text-gray-900 font-extrabold text-xl">500+</p>
@@ -174,9 +174,9 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredProducts.map((product) => (
               <div key={product.id} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100">
-                <div className="relative h-56 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
+                <div className="relative h-56 bg-white overflow-hidden border-b border-gray-50">
                   {product.imageUrl ? (
-                    <img src={product.imageUrl} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <img src={product.imageUrl} alt={product.name} className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
                   ) : (
                     <div className="absolute inset-0 flex items-center justify-center">
                       <Package size={64} className="text-gray-300 group-hover:text-primary/30 transition-colors" />
