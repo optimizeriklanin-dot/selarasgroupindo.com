@@ -12,6 +12,7 @@ export const CATEGORIES = [
   { id: 6, name: 'Tas Laptop', slug: 'tas-laptop' },
   { id: 7, name: 'Koper', slug: 'koper' },
   { id: 8, name: 'Pouch & Dompet', slug: 'pouch-dompet' },
+  { id: 9, name: 'Bantal Leher', slug: 'bantal-leher' },
 ];
 
 export const PRODUCTS = [
@@ -147,8 +148,8 @@ export const PRODUCTS = [
     price: 35000,
     stock: 500,
     minStock: 20,
-    categoryId: 2,
-    category: 'Tas Promosi',
+    categoryId: 9,
+    category: 'Bantal Leher',
     imageUrl: '/products/bantal-leher-motif-custom-556.jpeg',
   },
   {
@@ -159,8 +160,8 @@ export const PRODUCTS = [
     price: 35000,
     stock: 500,
     minStock: 20,
-    categoryId: 2,
-    category: 'Tas Promosi',
+    categoryId: 9,
+    category: 'Bantal Leher',
     imageUrl: '/products/bantal-leher-orange-promosi-922.jpeg',
   },
   {
@@ -171,8 +172,8 @@ export const PRODUCTS = [
     price: 35000,
     stock: 500,
     minStock: 20,
-    categoryId: 2,
-    category: 'Tas Promosi',
+    categoryId: 9,
+    category: 'Bantal Leher',
     imageUrl: '/products/bantal-leher-hitam-elegan-promosi-556.jpeg',
   },
   {
@@ -207,8 +208,8 @@ export const PRODUCTS = [
     price: 35000,
     stock: 500,
     minStock: 20,
-    categoryId: 2,
-    category: 'Tas Promosi',
+    categoryId: 9,
+    category: 'Bantal Leher',
     imageUrl: '/products/set-bantal-leher-kuning-promosi-629.jpeg',
   },
   {
@@ -435,8 +436,8 @@ export const PRODUCTS = [
     price: 35000,
     stock: 500,
     minStock: 20,
-    categoryId: 2,
-    category: 'Tas Promosi',
+    categoryId: 9,
+    category: 'Bantal Leher',
     imageUrl: '/products/bantal-leher-custom-motif-kuning-eksklusif-978.jpeg',
   },
   {
