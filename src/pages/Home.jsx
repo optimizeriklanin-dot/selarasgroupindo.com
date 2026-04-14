@@ -91,7 +91,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="hidden md:flex justify-center items-center">
+            <div className="flex justify-center items-center mt-12 md:mt-0">
               <div className="relative">
                 <div className="relative h-64 md:h-96 w-full max-w-lg mx-auto md:mx-0 bg-white rounded-3xl overflow-hidden shadow-2xl">
                   <img src="/products/team-photo.jpeg" alt="Tim PT Selaras Serasa Sejalan" className="w-full h-full object-cover md:object-cover" />
