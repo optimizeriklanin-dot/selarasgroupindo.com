@@ -114,7 +114,7 @@ export const PRODUCTS = [
     minStock: 200,
     categoryId: 8,
     category: 'Pouch & Dompet',
-    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60', /* unsplash placeholder for pouch */
+    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
   },
   {
     id: 9,
