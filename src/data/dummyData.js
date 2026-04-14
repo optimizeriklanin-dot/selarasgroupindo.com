@@ -226,7 +226,7 @@ export const PRODUCTS = [
   },
   {
     id: 18,
-    name: 'Drawstring Bag Ajwa Kuning Hijau',
+    name: 'Tas Serut',
     slug: 'drawstring-bag-ajwa-kuning-hijau-80',
     description: 'Berikan sentuhan profesional pada brand Anda dengan Drawstring Bag Ajwa Kuning Hijau. Dibuat dengan bahan berkualitas tinggi, cocok digunakan sebagai tas promosi perusahaan, souvenir seminar, dan kebutuhan institusional Anda. Desain kuat, menarik, dan bisa disesuaikan dengan logo Anda.',
     price: 35000,
@@ -250,7 +250,7 @@ export const PRODUCTS = [
   },
   {
     id: 20,
-    name: 'Tote Bag Kanvas Klasik Logo Gold',
+    name: 'Tas Jinjing',
     slug: 'tote-bag-kanvas-klasik-logo-gold-188',
     description: 'Berikan sentuhan profesional pada brand Anda dengan Tote Bag Kanvas Klasik Logo Gold. Dibuat dengan bahan berkualitas tinggi, cocok digunakan sebagai tas promosi perusahaan, souvenir seminar, dan kebutuhan institusional Anda. Desain kuat, menarik, dan bisa disesuaikan dengan logo Anda.',
     price: 35000,
@@ -286,7 +286,7 @@ export const PRODUCTS = [
   },
   {
     id: 23,
-    name: 'Waist Bag Pouch Biru List Kuning',
+    name: 'Tas Slempang',
     slug: 'waist-bag-pouch-biru-list-kuning-372',
     description: 'Berikan sentuhan profesional pada brand Anda dengan Waist Bag Pouch Biru List Kuning. Dibuat dengan bahan berkualitas tinggi, cocok digunakan sebagai tas promosi perusahaan, souvenir seminar, dan kebutuhan institusional Anda. Desain kuat, menarik, dan bisa disesuaikan dengan logo Anda.',
     price: 35000,
@@ -346,7 +346,7 @@ export const PRODUCTS = [
   },
   {
     id: 28,
-    name: 'Tote Bag Coklat Elegan Tali Kulit',
+    name: 'Tas Wanita',
     slug: 'tote-bag-coklat-elegan-tali-kulit-971',
     description: 'Berikan sentuhan profesional pada brand Anda dengan Tote Bag Coklat Elegan Tali Kulit. Dibuat dengan bahan berkualitas tinggi, cocok digunakan sebagai tas promosi perusahaan, souvenir seminar, dan kebutuhan institusional Anda. Desain kuat, menarik, dan bisa disesuaikan dengan logo Anda.',
     price: 35000,
@@ -454,7 +454,7 @@ export const PRODUCTS = [
   },
   {
     id: 37,
-    name: 'Pouch Bag Clutch Kulit Sintetis Coklat',
+    name: 'Pouch',
     slug: 'pouch-bag-clutch-kulit-sintetis-coklat-287',
     description: 'Berikan sentuhan profesional pada brand Anda dengan Pouch Bag Clutch Kulit Sintetis Coklat. Dibuat dengan bahan berkualitas tinggi, cocok digunakan sebagai tas promosi perusahaan, souvenir seminar, dan kebutuhan institusional Anda. Desain kuat, menarik, dan bisa disesuaikan dengan logo Anda.',
     price: 35000,
@@ -478,7 +478,7 @@ export const PRODUCTS = [
   },
   {
     id: 39,
-    name: 'Ransel Serut Drawstring Bag Hitam Elegan',
+    name: 'Ransel Serut',
     slug: 'ransel-serut-drawstring-bag-hitam-elegan-981',
     description: 'Berikan sentuhan profesional pada brand Anda dengan Ransel Serut Drawstring Bag Hitam Elegan. Dibuat dengan bahan berkualitas tinggi, cocok digunakan sebagai tas promosi perusahaan, souvenir seminar, dan kebutuhan institusional Anda. Desain kuat, menarik, dan bisa disesuaikan dengan logo Anda.',
     price: 35000,
