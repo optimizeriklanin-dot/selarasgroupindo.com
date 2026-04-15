@@ -13,6 +13,8 @@ export const CATEGORIES = [
   { id: 7, name: 'Tas Serut', slug: 'tas-serut' },
   { id: 8, name: 'Bantal Leher', slug: 'bantal-leher' },
   { id: 9, name: 'Tas Promosi', slug: 'tas-promosi' },
+  { id: 10, name: 'Syal', slug: 'syal' },
+  { id: 11, name: 'Tim Selaras', slug: 'tim-selaras' },
 ];
 
 export const PRODUCTS = [
@@ -237,8 +239,8 @@ export const PRODUCTS = [
     price: 35000,
     stock: 500,
     minStock: 20,
-    categoryId: 9,
-    category: 'Tas Promosi',
+    categoryId: 10,
+    category: 'Syal',
     imageUrl: '/products/syal-scarf-custom-printing-789.jpeg',
   },
   {
