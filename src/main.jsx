@@ -8,13 +8,12 @@ import { PRODUCTS } from './data/dummyData.js'
 
 // --- SYNCHRONIZE LOCAL STORAGE (AUTO-UPDATE KATEGORI & PRODUK BARU) ---
 const localProducts = JSON.parse(localStorage.getItem('products')) || [];
+
+// Gunakan data dari dummyData.js sebagai dasar, tapi JANGAN timpa editan user di Admin
 const mergedProducts = PRODUCTS.map(dp => {
   const lp = localProducts.find(p => p.id === dp.id);
-  // Jika produk sudah ada, kita pastikan kategori & namanya sinkron dengan dummyData yang baru
-  if (lp) {
-    return { ...lp, category: dp.category, categoryId: dp.categoryId };
-  }
-  return dp;
+  // Jika produk sudah ada di local storage (pernah diedit/disimpan), gunakan data lokal tersebut
+  return lp ? lp : dp;
 });
 
 // Tambahkan produk yang dibuat manual melalui Admin (jika ada) yang tidak ada di dummyData
